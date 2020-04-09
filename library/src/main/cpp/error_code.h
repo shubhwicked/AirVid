@@ -1,0 +1,10 @@
+
+
+#ifndef MOBISOFT_ERROR_CODE_H
+#define MOBISOFT_ERROR_CODE_H
+
+#define CLIP_EMPTY -2001
+
+#define EXPORT_CONFIG -4001
+
+#endif  // MOBISOFT_ERROR_CODE_H

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Rose Eye",
+    "color": "#cc23bdb1",
+    "effect": "effect/roseEyeMakeup"
+  },
+  {
+    "id": 2,
+    "name": "Princess",
+    "color": "#cce77e86",
+    "effect": "effect/princess"
+  },
+  {
+    "id": 3,
+    "name": "Sticker",
+    "color": "#cce77e86",
+    "effect": "effect/stickerMarkup"
+  },
+  {
+    "id": 4,
+    "name": "Piggy",
+    "color": "#cce77e86",
+    "effect": "effect/fallPig"
+  },
+  {
+    "id": 5,
+    "name": "Cat",
+    "color": "#cce77e86",
+    "effect": "effect/cat"
+  }
+]

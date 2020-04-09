@@ -1,0 +1,290 @@
+ [
+    {
+      "name": "Fair",
+      "thumbnail": "baizan/thumbnail.jpg",
+      "config": "baizan",
+      "lut": "baizan/lut_117/lut_117.png"
+    },
+    {
+      "name": "Snow",
+      "thumbnail": "baixue/thumbnail.jpg",
+      "config": "baixue",
+      "lut": "baixue/snow/snow.png"
+    },
+    {
+      "name": "Tea",
+      "thumbnail": "chahui/thumbnail.jpg",
+      "config": "chahui",
+      "lut": "chahui/lut_124/lut_124.png"
+    },
+    {
+      "name": "City",
+      "thumbnail": "chengshi/thumbnail.jpg",
+      "config": "chengshi",
+      "lut": "chengshi/lut_149/lut_149.png"
+    },
+    {
+      "name": "Love",
+      "thumbnail": "chulian/thumbnail.jpg",
+      "config": "chulian",
+      "lut": "chulian/lut_118/lut_118.png"
+    },
+    {
+      "name": "Start",
+      "thumbnail": "chuxin/thumbnail.jpg",
+      "config": "chuxin",
+      "lut": "chuxin/lut137/lut137.png"
+    },
+    {
+      "name": "Pure",
+      "thumbnail": "chunjing/thumbnail.jpg",
+      "config": "chunjing",
+      "lut": "chunjing/pure/pure.png"
+    },
+    {
+      "name": "Innocence",
+      "thumbnail": "chunzhen/thumbnail.jpg",
+      "config": "chunzhen",
+      "lut": "chunzhen/sincere/sincere.png"
+    },
+    {
+      "name": "Monochrome",
+      "thumbnail": "danse/thumbnail.jpg",
+      "config": "danse",
+      "lut": "danse/lut_114/lut_114.png"
+    },
+    {
+      "name": "Islands",
+      "thumbnail": "daoyu/thumbnail.jpg",
+      "config": "daoyu",
+      "lut": "daoyu/lut_151/lut_151.png"
+    },
+    {
+      "name": "Move",
+      "thumbnail": "dongren/thumbnail.jpg",
+      "config": "dongren",
+      "lut": "dongren/vivid_4/vivid_4.png"
+    },
+    {
+      "name": "Unicorn",
+      "thumbnail": "dujiaoshou/thumbnail.jpg",
+      "config": "dujiaoshou",
+      "lut": "dujiaoshou/lut_155/lut_155.png"
+    },
+    {
+      "name": "Contrast",
+      "thumbnail": "fanchase/thumbnail.jpg",
+      "config": "fanchase",
+      "lut": "fanchase/lut_112/lut_112.png"
+    },
+    {
+      "name": "Ordinary",
+      "thumbnail": "feifan/thumbnail.jpg",
+      "config": "feifan",
+      "lut": "feifan/uncommon/uncommon.png"
+    },
+    {
+      "name": "Past",
+      "thumbnail": "guowang/thumbnail.jpg",
+      "config": "guowang",
+      "lut": "guowang/beyond/beyond.png"
+    },
+    {
+      "name": "Begonia",
+      "thumbnail": "haitang/thumbnail.jpg",
+      "config": "haitang",
+      "lut": "haitang/lut_146/lut_146.png"
+    },
+    {
+      "name": "Red",
+      "thumbnail": "hongse/thumbnail.jpg",
+      "config": "hongse",
+      "lut": "hongse/lut_115/lut_115.png"
+    },
+    {
+      "name": "Amber",
+      "thumbnail": "hupo/thumbnail.jpg",
+      "config": "hupo",
+      "lut": "hupo/lut_147/lut_147.png"
+    },
+    {
+      "name": "Caramel",
+      "thumbnail": "jiaotang/thumbnail.jpg",
+      "config": "jiaotang",
+      "lut": "jiaotang/lut139/lut139.png"
+    },
+    {
+      "name": "Tasty",
+      "thumbnail": "kekou/thumbnail.jpg",
+      "config": "kekou",
+      "lut": "kekou/lut100/lut100.png"
+    },
+    {
+      "name": "Romeo",
+      "thumbnail": "luomio/thumbnail.jpg",
+      "config": "luomio",
+      "lut": "luomio/romeo/romeo.png"
+    },
+    {
+      "name": "Delicious",
+      "thumbnail": "meiwei/thumbnail.jpg",
+      "config": "meiwei",
+      "lut": "meiwei/lut120/lut120.png"
+    },
+    {
+      "name": "Peach",
+      "thumbnail": "mifentao/thumbnail.jpg",
+      "config": "mifentao",
+      "lut": "mifentao/lut_130/lut_130.png"
+    },
+    {
+      "name": "Mocha",
+      "thumbnail": "moka/thumbnail.jpg",
+      "config": "moka",
+      "lut": "moka/lut_144/lut_144.png"
+    },
+    {
+      "name": "Mousse",
+      "thumbnail": "musi/thumbnail.jpg",
+      "config": "musi",
+      "lut": "musi/lut_119/lut_119.png"
+    },
+    {
+      "name": "Milk",
+      "thumbnail": "naicha/thumbnail.jpg",
+      "config": "naicha",
+      "lut": "naicha/lut142/lut142.png"
+    },
+    {
+      "name": "Time",
+      "thumbnail": "nianhua/thumbnail.jpg",
+      "config": "nianhua",
+      "lut": "nianhua/years/years.png"
+    },
+    {
+      "name": "Polaroid",
+      "thumbnail": "pailide/thumbnail.jpg",
+      "config": "pailide",
+      "lut": "pailide/lut_113/lut_113.png"
+    },
+    {
+      "name": "Peilan",
+      "thumbnail": "peilan/thumbnail.jpg",
+      "config": "peilan",
+      "lut": "peilan/lut125/lut125.png"
+    },
+    {
+      "name": "Rose",
+      "thumbnail": "qiangwei/thumbnail.jpg",
+      "config": "qiangwei",
+      "lut": "qiangwei/rose/rose.png"
+    },
+    {
+      "name": "Pure",
+      "thumbnail": "qingchun/thumbnail.jpg",
+      "config": "qingchun",
+      "lut": "qingchun/teen/teen.png"
+    },
+    {
+      "name": "Cool",
+      "thumbnail": "qingliang/thumbnail.jpg",
+      "config": "qingliang",
+      "lut": "qingliang/lut_145/lut_145.png"
+    },
+    {
+      "name": "Fresh",
+      "thumbnail": "qingxin/thumbnail.jpg",
+      "config": "qingxin",
+      "lut": "qingxin/lut102/lut102.png"
+    },
+    {
+      "name": "Cookie",
+      "thumbnail": "quqi/thumbnail.jpg",
+      "config": "quqi",
+      "lut": "quqi/beach_15/beach_15.png"
+    },
+    {
+      "name": "Fresh",
+      "thumbnail": "rixi/thumbnail.jpg",
+      "config": "rixi",
+      "lut": "rixi/fresh_5/fresh_5.png"
+    },
+    {
+      "name": "Mix",
+      "thumbnail": "riza/thumbnail.jpg",
+      "config": "riza",
+      "lut": "riza/lut_125/lut_125.png"
+    },
+    {
+      "name": "Orange",
+      "thumbnail": "shankuju/thumbnail.jpg",
+      "config": "shankuju",
+      "lut": "shankuju/lut_154/lut_154.png"
+    },
+    {
+      "name": "Black",
+      "thumbnail": "shenhei/thumbnail.jpg",
+      "config": "shenhei",
+      "lut": "shenhei/lut111/lut111.png"
+    },
+    {
+      "name": "Dawn",
+      "thumbnail": "shuguang/thumbnail.jpg",
+      "config": "shuguang",
+      "lut": "shuguang/lut_152/lut_152.png"
+    },
+    {
+      "name": "Plain",
+      "thumbnail": "sujing/thumbnail.jpg",
+      "config": "sujing",
+      "lut": "sujing/lut123/lut123.png"
+    },
+    {
+      "name": "Yogurt",
+      "thumbnail": "suannai/thumbnail.jpg",
+      "config": "suannai",
+      "lut": "suannai/lut_140/lut_140.png"
+    },
+    {
+      "name": "Azure",
+      "thumbnail": "weilan/thumbnail.jpg",
+      "config": "weilan",
+      "lut": "weilan/lut110/lut110.png"
+    },
+    {
+      "name": "Ubonto",
+      "thumbnail": "wubangtuo/thumbnail.jpg",
+      "config": "wubangtuo",
+      "lut": "wubangtuo/lut_153/lut_153.png"
+    },
+    {
+      "name": "Grapes",
+      "thumbnail": "xiyou/thumbnail.jpg",
+      "config": "xiyou",
+      "lut": "xiyou/lut_143/lut_143.png"
+    },
+    {
+      "name": "New",
+      "thumbnail": "xiannei/thumbnail.jpg",
+      "config": "xiannei",
+      "lut": "xiannei/lut141/lut141.png"
+    },
+    {
+      "name": "Cheese",
+      "thumbnail": "zhishi/thumbnail.jpg",
+      "config": "zhishi",
+      "lut": "zhishi/lut129/lut129.png"
+    },
+    {
+      "name": "Summer",
+      "thumbnail": "zhongxia/thumbnail.jpg",
+      "config": "zhongxia",
+      "lut": "zhongxia/lut_148/lut_148.png"
+    },
+    {
+      "name": "Natural",
+      "thumbnail": "ziran/thumbnail.jpg",
+      "config": "ziran",
+      "lut": "ziran/normal_android/normal_android.png"
+    }
+  ]

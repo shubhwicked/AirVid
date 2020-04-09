@@ -1,0 +1,2 @@
+rootProject.name='AirVid'
+include ':app', ':library'

@@ -1,0 +1,119 @@
+[
+  {
+    "id": 0,
+    "name": "Withdraw",
+    "color": "#4F4F4F"
+  },
+  {
+    "id": 1,
+    "name": "Flash",
+    "color": "#cc23bdb1",
+    "effect": "effect/flashWhite",
+    "effectName": "FlashWhite"
+  },
+  {
+    "id": 2,
+    "name": "Two Screen",
+    "color": "#cce77e86",
+    "effect": "effect/twoScreen",
+    "effectName": "SplitScreen"
+  },
+  {
+    "id": 3,
+    "name": "Three Screen",
+    "color": "#ccdc424e",
+    "effect": "effect/threeScreen",
+    "effectName": "SplitScreen"
+  },
+  {
+    "id": 4,
+    "name": "Four Screen",
+    "color": "#ccc12430",
+    "effect": "effect/fourScreen",
+    "effectName": "SplitScreen"
+  },
+  {
+    "id": 5,
+    "name": "Six Screen",
+    "color": "#ccef2f3e",
+    "effect": "effect/sixScreen",
+    "effectName": "SplitScreen"
+  },
+  {
+    "id": 6,
+    "name": "Nine Screen",
+    "color": "#ccdc143c",
+    "effect": "effect/nineScreen",
+    "effectName": "SplitScreen"
+  },
+  {
+    "id": 6,
+    "name": "Black & White",
+    "color": "#ccdc143c",
+    "effect": "effect/blackWhiteScreen",
+    "effectName": "blackWhiteScreen"
+  },
+  {
+    "id": 7,
+    "name": "Blur Screen",
+    "color": "#CCEA0000",
+    "effect": "effect/blurScreen",
+    "effectName": "SplitScreen"
+  },
+  {
+    "id": 8,
+    "name": "Soul Out",
+    "color": "#EA0000",
+    "effect": "effect/soulScale",
+    "effectName": "effect/SoulScale"
+  },
+  {
+    "id": 9,
+    "name": "Shake",
+    "color": "#CCEA0000",
+    "effect": "effect/shake",
+    "effectName": "Shake"
+  },
+  {
+    "id": 10,
+    "name": "Glitch",
+    "color": "#CCEA0000",
+    "effect": "effect/skinNeedling",
+    "effectName": "SkinNeedling"
+  },
+  {
+    "id": 11,
+    "name": "Zoom",
+    "color": "#CCEA0000",
+    "effect": "effect/zoomInOut",
+    "effectName": "zoomInOut"
+  },
+  {
+    "id": 12,
+    "name": "70s",
+    "color": "#CCEA0000",
+    "effect": "effect/70s",
+    "effectName": "70s"
+  },
+  {
+    "id": 13,
+    "name": "x-signal",
+    "color": "#CCEA0000",
+    "effect": "effect/x-signal",
+    "effectName": "x-signal"
+  },
+  {
+    "id": 14,
+    "name": "Countdown",
+    "color": "#CCEA0000",
+    "effect": "effect/countDown",
+    "effectName": "countDown"
+  },
+  {
+    "id": 15,
+    "name": "Love Flare",
+    "color": "#CCEA0000",
+    "effect": "effect/loveSpot",
+    "effectName": "loveSpot"
+  }
+]

@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "Countdown",
+    "color": "#CCEA0000",
+    "effect": "effect/countDown",
+    "effectName": "countDown"
+  }
+]

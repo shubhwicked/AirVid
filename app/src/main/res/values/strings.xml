@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Airvid</string>
+
+    <string name="rate_very_slow">Slower</string>
+    <string name="rate_slow">Slow</string>
+    <string name="rate_standard">Normal</string>
+    <string name="rate_fast">Fast</string>
+    <string name="rate_very_fast">Faster</string>
+
+    <string-array name="preview_render_preference">
+        <item>FIT</item>
+        <item>CROP</item>
+    </string-array>
+
+    <string-array name="preview_render_value_preference">
+        <item>"FIT"</item>
+        <item>"CROP"</item>
+    </string-array>
+
+    <string-array name="preview_resolution">
+        <item>1080P</item>
+        <item>720P</item>
+    </string-array>
+
+    <string-array name="record_resolution">
+        <item>1080P</item>
+        <item>720P</item>
+        <item>540P</item>
+        <item>480P</item>
+        <item>360P</item>
+    </string-array>
+
+    <string-array name="frame_rate">
+        <item>30</item>
+        <item>25</item>
+        <item>24</item>
+        <item>20</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="channels">
+        <item>2</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="sample_rate">
+        <item>48000</item>
+        <item>44100</item>
+        <item>22050</item>
+    </string-array>
+
+    <string name="filter">Filter</string>
+    <string name="music">Music</string>
+    <string name="gif">GIF</string>
+    <string name="subtitle">Text</string>
+    <string name="mv">MV</string>
+    <string name="sound">Sound effects</string>
+    <string name="effect">Special effects</string>
+    <string name="speed_time">Variable speed</string>
+    <string name="transition">Transitions</string>
+    <string name="paint">Graffiti</string>
+    <string name="cover">Cover</string>
+    <string name="smoother">Microdermabrasion</string>
+    <string name="effect_tip">After selecting the location, press and hold to use the effect</string>
+    <string name="undo">Undo</string>
+    <string name="split_screen">Split Screen</string>
+    <string name="dream">dream</string>
+
+    <string name="caption_effect_font_category_name">Plain text</string>
+    <string name="caption_effect_bottom_keyboard">keyboard</string>
+    <string name="caption_effect_bottom_color">colour</string>
+    <string name="caption_effect_bottom_font">Font</string>
+    <string name="caption_effect_bottom_animation">Special effects</string>
+    <string name="text_count_outof">Word limit exceeded</string>
+    <string name="subtitle_text_color">filling</string>
+    <string name="subtitle_text_stroke">Stroke</string>
+</resources>
