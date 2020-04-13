@@ -92,14 +92,14 @@ class EditorActivity : AppCompatActivity(), ViewOperator.AnimatorListener, TabLa
     mInsideBottomSheet = findViewById(R.id.frame_container)
     mBottomSheetLayout = findViewById(R.id.editor_coordinator)
 
-    mPlayImage.setOnClickListener {
+   /* mPlayImage.setOnClickListener {
         mPauseImage.visibility=View.VISIBLE
         mPlayImage.visibility=View.GONE
         mVideoEditor.resume() }
     mPauseImage.setOnClickListener {
         mPauseImage.visibility=View.GONE
         mPlayImage.visibility=View.VISIBLE
-        mVideoEditor.pause() }
+        mVideoEditor.pause() }*/
     rootView.setOnClickListener {
       mViewOperator.hideBottomEditorView(EditorPage.FILTER)
     }
@@ -172,7 +172,7 @@ class EditorActivity : AppCompatActivity(), ViewOperator.AnimatorListener, TabLa
   }
 
   override fun onThumbLineBarSeek(duration: Long) {
-   mVideoEditor.seek(duration as Int)
+   mVideoEditor.seek(duration.toInt() as Int)
     mThumbLineBar.pause()
     changePlayResource()
     mCanAddAnimation = if (mUseInvert) {

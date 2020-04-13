@@ -14,7 +14,7 @@ import kotlinx.coroutines.launch
 import java.io.*
 
 
-class TrinityApplication : Application() {
+class MobisoftApplication : Application() {
 
   companion object {
     init {

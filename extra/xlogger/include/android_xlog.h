@@ -15,7 +15,7 @@
 
 #include "xloggerbase.h"
 
-#define MOBISOFT_TAG "trinity"
+#define MOBISOFT_TAG "mobisoft"
 
 /*
  * Android log priority values, in ascending priority order.

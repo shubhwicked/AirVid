@@ -406,63 +406,63 @@ public class TabLayout extends HorizontalScrollView {
         new LayoutParams(
             LayoutParams.WRAP_CONTENT, LayoutParams.MATCH_PARENT));
 
-    TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.TrinityTabLayout, defStyleAttr, 0);
+    TypedArray a = context.obtainStyledAttributes(attrs, R.styleable.MobisoftTabLayout, defStyleAttr, 0);
 
     slidingTabIndicator.setSelectedIndicatorHeight(
-        a.getDimensionPixelSize(R.styleable.TrinityTabLayout_tabIndicatorHeight, -1));
+        a.getDimensionPixelSize(R.styleable.MobisoftTabLayout_tabIndicatorHeight, -1));
     slidingTabIndicator.setSelectedIndicatorColor(
-        a.getColor(R.styleable.TrinityTabLayout_tabIndicatorColor, 0));
+        a.getColor(R.styleable.MobisoftTabLayout_tabIndicatorColor, 0));
     setSelectedTabIndicator(
-        MaterialResources.getDrawable(context, a, R.styleable.TrinityTabLayout_tabIndicator));
+        MaterialResources.getDrawable(context, a, R.styleable.MobisoftTabLayout_tabIndicator));
     setSelectedTabIndicatorGravity(
-        a.getInt(R.styleable.TrinityTabLayout_mobisoftTabIndicatorGravity, INDICATOR_GRAVITY_BOTTOM));
-    setTabIndicatorFullWidth(a.getBoolean(R.styleable.TrinityTabLayout_tabIndicatorFullWidth, true));
+        a.getInt(R.styleable.MobisoftTabLayout_mobisoftTabIndicatorGravity, INDICATOR_GRAVITY_BOTTOM));
+    setTabIndicatorFullWidth(a.getBoolean(R.styleable.MobisoftTabLayout_tabIndicatorFullWidth, true));
 
     tabPaddingStart =
         tabPaddingTop =
             tabPaddingEnd =
-                tabPaddingBottom = a.getDimensionPixelSize(R.styleable.TrinityTabLayout_tabPadding, 0);
+                tabPaddingBottom = a.getDimensionPixelSize(R.styleable.MobisoftTabLayout_tabPadding, 0);
     tabPaddingStart =
-        a.getDimensionPixelSize(R.styleable.TrinityTabLayout_tabPaddingStart, tabPaddingStart);
-    tabPaddingTop = a.getDimensionPixelSize(R.styleable.TrinityTabLayout_tabPaddingTop, tabPaddingTop);
-    tabPaddingEnd = a.getDimensionPixelSize(R.styleable.TrinityTabLayout_tabPaddingEnd, tabPaddingEnd);
+        a.getDimensionPixelSize(R.styleable.MobisoftTabLayout_tabPaddingStart, tabPaddingStart);
+    tabPaddingTop = a.getDimensionPixelSize(R.styleable.MobisoftTabLayout_tabPaddingTop, tabPaddingTop);
+    tabPaddingEnd = a.getDimensionPixelSize(R.styleable.MobisoftTabLayout_tabPaddingEnd, tabPaddingEnd);
     tabPaddingBottom =
-        a.getDimensionPixelSize(R.styleable.TrinityTabLayout_tabPaddingBottom, tabPaddingBottom);
+        a.getDimensionPixelSize(R.styleable.MobisoftTabLayout_tabPaddingBottom, tabPaddingBottom);
 
-    if (a.hasValue(R.styleable.TrinityTabLayout_tabTextColor)) {
+    if (a.hasValue(R.styleable.MobisoftTabLayout_tabTextColor)) {
       // If we have an explicit text color set, use it instead
       tabTextColors =
-          MaterialResources.getColorStateList(context, a, R.styleable.TrinityTabLayout_tabTextColor);
+          MaterialResources.getColorStateList(context, a, R.styleable.MobisoftTabLayout_tabTextColor);
     }
 
-    if (a.hasValue(R.styleable.TrinityTabLayout_tabSelectedTextColor)) {
+    if (a.hasValue(R.styleable.MobisoftTabLayout_tabSelectedTextColor)) {
       // We have an explicit selected text color set, so we need to make merge it with the
       // current colors. This is exposed so that developers can use theme attributes to set
       // this (theme attrs in ColorStateLists are Lollipop+)
-      final int selected = a.getColor(R.styleable.TrinityTabLayout_tabSelectedTextColor, 0);
+      final int selected = a.getColor(R.styleable.MobisoftTabLayout_tabSelectedTextColor, 0);
       tabTextColors = createColorStateList(tabTextColors.getDefaultColor(), selected);
     }
 
     tabIconTint =
-        MaterialResources.getColorStateList(context, a, R.styleable.TrinityTabLayout_tabIconTint);
+        MaterialResources.getColorStateList(context, a, R.styleable.MobisoftTabLayout_tabIconTint);
 
     tabRippleColorStateList =
-        MaterialResources.getColorStateList(context, a, R.styleable.TrinityTabLayout_tabRippleColor);
+        MaterialResources.getColorStateList(context, a, R.styleable.MobisoftTabLayout_tabRippleColor);
 
     tabIndicatorAnimationDuration =
-        a.getInt(R.styleable.TrinityTabLayout_tabIndicatorAnimationDuration, ANIMATION_DURATION);
+        a.getInt(R.styleable.MobisoftTabLayout_tabIndicatorAnimationDuration, ANIMATION_DURATION);
 
     requestedTabMinWidth =
-        a.getDimensionPixelSize(R.styleable.TrinityTabLayout_tabMinWidth, INVALID_WIDTH);
+        a.getDimensionPixelSize(R.styleable.MobisoftTabLayout_tabMinWidth, INVALID_WIDTH);
     requestedTabMaxWidth =
-        a.getDimensionPixelSize(R.styleable.TrinityTabLayout_tabMaxWidth, INVALID_WIDTH);
-    tabBackgroundResId = a.getResourceId(R.styleable.TrinityTabLayout_tabBackground, 0);
-    contentInsetStart = a.getDimensionPixelSize(R.styleable.TrinityTabLayout_tabContentStart, 0);
+        a.getDimensionPixelSize(R.styleable.MobisoftTabLayout_tabMaxWidth, INVALID_WIDTH);
+    tabBackgroundResId = a.getResourceId(R.styleable.MobisoftTabLayout_tabBackground, 0);
+    contentInsetStart = a.getDimensionPixelSize(R.styleable.MobisoftTabLayout_tabContentStart, 0);
     // noinspection WrongConstant
-    mode = a.getInt(R.styleable.TrinityTabLayout_mobisoftTabMode, MODE_FIXED);
-    tabGravity = a.getInt(R.styleable.TrinityTabLayout_mobisoftTabGravity, GRAVITY_FILL);
-    inlineLabel = a.getBoolean(R.styleable.TrinityTabLayout_tabInlineLabel, false);
-    unboundedRipple = a.getBoolean(R.styleable.TrinityTabLayout_tabUnboundedRipple, false);
+    mode = a.getInt(R.styleable.MobisoftTabLayout_mobisoftTabMode, MODE_FIXED);
+    tabGravity = a.getInt(R.styleable.MobisoftTabLayout_mobisoftTabGravity, GRAVITY_FILL);
+    inlineLabel = a.getBoolean(R.styleable.MobisoftTabLayout_tabInlineLabel, false);
+    unboundedRipple = a.getBoolean(R.styleable.MobisoftTabLayout_tabUnboundedRipple, false);
     a.recycle();
 
     // TODO add attr for these

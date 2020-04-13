@@ -22,7 +22,7 @@ import android.content.Context
 import android.view.Surface
 import com.mobisoft.encoder.MediaCodecSurfaceEncoder
 import com.mobisoft.listener.OnExportListener
-import com.mobisoft.util.Trinity
+import com.mobisoft.util.Mobisoft
 
 /**
  * Created by Shubham on 2020-07-30
@@ -79,7 +79,7 @@ class VideoExport(private val context: Context) : MobisoftVideoExport {
   @Suppress("unused")
   private fun onExportProgress(progress: Float) {
     mListener?.let {
-      Trinity.callback {
+      Mobisoft.callback {
         it.onExportProgress(progress)
       }
     }
@@ -92,7 +92,7 @@ class VideoExport(private val context: Context) : MobisoftVideoExport {
   @Suppress("unused")
   private fun onExportFailed(error: Int) {
     mListener?.let {
-      Trinity.callback {
+      Mobisoft.callback {
         it.onExportFailed(error)
       }
     }
@@ -104,7 +104,7 @@ class VideoExport(private val context: Context) : MobisoftVideoExport {
   @Suppress("unused")
   private fun onExportComplete() {
     mListener?.let {
-      Trinity.callback {
+      Mobisoft.callback {
         it.onExportComplete()
       }
     }
@@ -116,7 +116,7 @@ class VideoExport(private val context: Context) : MobisoftVideoExport {
   @Suppress("unused")
   private fun onExportCanceled() {
     mListener?.let {
-      Trinity.callback {
+      Mobisoft.callback {
         it.onExportCanceled()
       }
     }

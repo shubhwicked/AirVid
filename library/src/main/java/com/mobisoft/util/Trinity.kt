@@ -24,7 +24,7 @@ import android.os.Looper
 /**
  * Created by Shubham on 2020-07-31
  */
-object Trinity {
+object Mobisoft {
 
   private val mHandler = Handler(Looper.getMainLooper())
 

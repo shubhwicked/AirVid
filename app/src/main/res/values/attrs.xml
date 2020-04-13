@@ -20,7 +20,7 @@
   <!-- Style to use for TabLayout in the theme. -->
   <attr name="tabStyle" format="reference"/>
 
-  <declare-styleable name="TrinityTabLayout">
+  <declare-styleable name="MobisoftTabLayout">
     <!-- Color of the indicator used to show the currently selected tab. -->
     <attr name="tabIndicatorColor" format="color"/>
     <!-- {@deprecated Instead, set the intrinsic size of the custom drawable provided to the
@@ -105,7 +105,7 @@
     <attr name="tabUnboundedRipple" format="boolean"/>
   </declare-styleable>
 
-  <declare-styleable name="TrinityTabItem">
+  <declare-styleable name="MobisoftTabItem">
     <!-- Text to display in the tab. -->
     <attr name="android:text"/>
     <!-- Icon to display in the tab. -->

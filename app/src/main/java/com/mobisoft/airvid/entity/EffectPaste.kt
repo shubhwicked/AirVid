@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 Trinity. All rights reserved.
+ * Copyright (C) 2020 Mobisoft. All rights reserved.
  * Copyright (C) 2020 Wang LianJie <Shubham888@gmail.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
